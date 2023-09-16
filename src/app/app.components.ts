@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: `<label>Введіть назву:</label>
+  template: `<label>Введіть назву, будь ласка:</label>
 
 <input [(ngModel)]="name" placeholder="name">
-<h1>Ласкаво просимо, dear {{name}}!</h1>`
+<h1>Ласкаво просимо {{name}}!</h1>`
 
 })
 export class AppComponent {
